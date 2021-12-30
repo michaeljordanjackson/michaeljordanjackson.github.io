@@ -1,0 +1,74 @@
+.fony{
+	  margin: 0;
+  padding: 0;
+background-image: url('background.png');
+font: italic small-caps bold 16px/2 cursive;
+}
+
+main{
+	  padding-bottom: 0px;
+}
+
+.header{
+position: relative;
+z-index: 5;
+min-height: 20px;
+padding: 20px;
+color: white;
+background-image: linear-gradient(#ffffff, #d1d1d1);
+font: italic small-caps bold 16px/2 cursive;
+}
+
+.footer{
+background-color:rgb(149,38,35);
+background-position: 0 0, 0 0, 0 100%, 0 100%;
+padding: 50px;
+margin-top:-15px;
+font: italic small-caps bold 16px/2 cursive;
+}
+
+.info{
+	float:left;
+	margin-right: 0.5em;
+}
+.info img{
+margin-right:1em;
+vertical-align:middle;
+}
+
+.copy{
+  float: right;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.menu ul{
+margin:0;
+margin-left:245px;
+padding:0;
+list-style: none;
+}
+
+.menu li{
+display:inline-block;
+margin-right:1em;
+}
+
+.menu a{
+color: black;
+}
+
+article{
+margin: 1em 0;
+padding: 10px;
+margin-right:55%;
+color: white;
+border-radius: 5px;
+background-color: rgba(51, 50, 50, 0.1);
+}
+
+h1{
+	text-align:center;
+	font-size:40px;
+	margin-bottom:0px;
+}

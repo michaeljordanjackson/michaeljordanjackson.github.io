@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form2.css">
+  <meta charset="utf-8">
+<title>Форма №1</title>
+</head>
+<body>
+<header class="header" >
+<nav class="menu">
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="table1.html">Таблица №1</a></li>
+<li><a href="table2.html">Таблица №2</a></li>
+<li><a href="form1.html">Форма №1</a></li>
+<li><a href="form2.html">Форма №2</a></li>
+<li><a href="https://nvsu.ru/">Мой ВУЗ</a></li>
+</ul>
+</nav>
+</header>
+<main style="margin-top:10%;margin-bottom:9.3%;">
+<form action="index.html" method="post" enctype="multipart/form-data">
+<div class="block">
+<label for="log">Логин:</label>
+<input type="text" id="log">
+<label for="pass">Пароль:</label>
+<input type="password" id="pass">
+
+<label for="url">URL-адрес сайта:</label>
+<input type="url" id="url" value="http://">
+
+<label for="naz">Название сайта:</label>
+<input type="text" id="naz">
+</div>
+<br>
+<label for="opis">Описание сайта:</label>
+<br>
+<textarea id="opis" style="width:500px; height:150px;"> </textarea>
+<br>
+<label for="theme">Тема:</label>
+<br>
+<select id="theme">
+<option value="1" selected>Тема не выбрана</option>
+<option value="2" selected>Форум</option>
+</select>
+<br>
+<label for="banner">Баннер:</label>
+<br>
+<input type="file" id="banner">
+<br>
+<br>
+<input type="submit" value="Отправить" style="color:darkcyan">
+<input type="reset" value="Очистить" style="color:darkcyan">
+</form>
+
+</main>
+<footer class="footer">
+<div class="info">
+<img src="css/face.jpg" height="50" width="50">Связь: dshifter@inbox.ru;	Реквизиты: 4377720000466482</div>
+<div class="copy">
+© 2001—2021 Batyrbek Makhutov
+</div>
+</footer>
+</body>
+</html>

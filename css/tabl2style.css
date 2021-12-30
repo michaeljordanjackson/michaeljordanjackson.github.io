@@ -1,0 +1,20 @@
+td{
+border: 4px solid black;
+height: 30px;
+}
+
+table
+{
+	width:300px;  
+	border-collapse: collapse; 
+}
+
+.biryuzov
+{
+	background-color: rgb(2,255,202);
+}
+
+.krem
+{
+	background-color:rgb(255,255,203);
+}
